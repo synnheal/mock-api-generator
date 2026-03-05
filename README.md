@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# Mock API Generator
 
-First, run the development server:
+**Design JSON schemas, generate fake data, and spin up a mock REST API — all in the browser.**
+
+*Concevez des schemas JSON, generez des donnees factices et lancez une API REST mock — tout dans le navigateur.*
+
+[English](#english) | [Francais](#francais)
+
+</div>
+
+---
+
+## English
+
+### What is Mock API Generator?
+
+Mock API Generator lets you define resources with JSON Schema, auto-generate realistic fake data using Faker.js, and instantly serve them through an in-browser REST API powered by MSW (Mock Service Worker). Test endpoints, filter, sort, paginate, and export to OpenAPI, Postman, or Insomnia.
+
+### Features
+
+- **Schema Editor** — Define your API resources with JSON Schema
+- **Fake Data Generation** — Auto-generate realistic data with Faker.js and json-schema-faker
+- **In-Browser Mock API** — MSW intercepts fetch requests and serves your mock data
+- **Full REST Support** — GET, POST, PUT, DELETE with filtering, sorting, and pagination
+- **Endpoint Tester** — Built-in HTTP client to test your mock endpoints
+- **Request Logs** — See all intercepted requests in real time
+- **Seed Control** — Reproducible data generation with configurable seeds
+- **Export Formats** — Export to OpenAPI 3.0, Postman Collection, or Insomnia
+- **Schema Examples** — Pre-built schemas to get started quickly
+- **Resizable Panels** — Customizable workspace layout
+- **Dark / Light Mode** — Theme toggle
+- **Bilingual UI** — Full English & French interface
+
+### Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| UI | Tailwind CSS 4 + shadcn/ui + Radix UI |
+| State | Zustand |
+| Mock Server | MSW (Mock Service Worker) |
+| Fake Data | @faker-js/faker + json-schema-faker |
+| Validation | AJV + ajv-formats |
+| Layout | react-resizable-panels |
+| i18n | next-intl |
+
+### Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Francais
 
-## Learn More
+### Qu'est-ce que Mock API Generator ?
 
-To learn more about Next.js, take a look at the following resources:
+Mock API Generator vous permet de definir des ressources avec JSON Schema, de generer automatiquement des donnees realistes avec Faker.js, et de les servir instantanement via une API REST dans le navigateur grace a MSW (Mock Service Worker). Testez les endpoints, filtrez, triez, paginez, et exportez en OpenAPI, Postman ou Insomnia.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fonctionnalites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Editeur de Schema** — Definissez vos ressources API avec JSON Schema
+- **Generation de Donnees Factices** — Generation automatique avec Faker.js et json-schema-faker
+- **API Mock dans le Navigateur** — MSW intercepte les requetes fetch et sert vos donnees
+- **Support REST Complet** — GET, POST, PUT, DELETE avec filtrage, tri et pagination
+- **Testeur d'Endpoints** — Client HTTP integre pour tester vos endpoints mock
+- **Logs de Requetes** — Visualisez toutes les requetes interceptees en temps reel
+- **Controle de Seed** — Generation reproductible avec seeds configurables
+- **Formats d'Export** — Export en OpenAPI 3.0, Collection Postman ou Insomnia
+- **Schemas Exemples** — Schemas pre-construits pour demarrer rapidement
+- **Panneaux Redimensionnables** — Layout d'espace de travail personnalisable
+- **Mode Sombre / Clair** — Bascule de theme
+- **Interface Bilingue** — Anglais et francais complets
 
-## Deploy on Vercel
+### Demarrage Rapide
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ouvrez [http://localhost:3000](http://localhost:3000).
+
+---
+
+<div align="center">
+
+**Built with Next.js, TypeScript & Tailwind CSS**
+
+</div>
