@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Mock API Generator",
+    "description": "Generate a complete REST API from JSON Schema"
+  },
+  "nav": {
+    "schema": "Schema",
+    "resources": "Resources",
+    "playground": "Playground",
+    "exports": "Exports"
+  },
+  "schema": {
+    "title": "JSON Schema",
+    "placeholder": "Paste your JSON Schema here...",
+    "validate": "Validate",
+    "valid": "Schema is valid",
+    "invalid": "Schema has errors",
+    "errors": "Errors",
+    "examples": "Examples",
+    "loadExample": "Load Example",
+    "clear": "Clear"
+  },
+  "resources": {
+    "title": "Resources",
+    "count": "{count} items",
+    "noResources": "No resources defined. Add a valid schema with $defs or definitions.",
+    "regenerate": "Regenerate",
+    "countLabel": "Count"
+  },
+  "endpoints": {
+    "title": "Endpoints",
+    "method": "Method",
+    "path": "Path",
+    "description": "Description",
+    "tryIt": "Try it"
+  },
+  "playground": {
+    "title": "API Playground",
+    "method": "Method",
+    "path": "Path",
+    "queryParams": "Query Parameters",
+    "body": "Request Body",
+    "send": "Send Request",
+    "response": "Response",
+    "status": "Status",
+    "duration": "Duration",
+    "headers": "Headers",
+    "noMocking": "Enable mocking to test endpoints",
+    "enableMocking": "Enable Mocking"
+  },
+  "exports": {
+    "title": "Export API",
+    "openapi": "OpenAPI",
+    "postman": "Postman",
+    "insomnia": "Insomnia",
+    "download": "Download",
+    "format": "Format",
+    "json": "JSON",
+    "yaml": "YAML"
+  },
+  "runtime": {
+    "title": "Runtime",
+    "mocking": "API Mocking",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "enable": "Enable",
+    "disable": "Disable",
+    "seed": "Seed",
+    "randomize": "Randomize",
+    "regenerate": "Regenerate Data",
+    "logs": "Request Logs",
+    "clearLogs": "Clear Logs",
+    "noLogs": "No requests yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "baseUrl": "Base URL",
+    "defaultCount": "Default Item Count",
+    "pagination": "Pagination",
+    "pageSize": "Default Page Size",
+    "maxPageSize": "Max Page Size",
+    "style": "Style",
+    "pageStyle": "Page-based",
+    "offsetStyle": "Offset-based"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "reset": "Reset",
+    "delete": "Delete"
+  },
+  "presets": {
+    "title": "Presets",
+    "ecommerce": "E-commerce",
+    "blog": "Blog",
+    "social": "Social Network"
+  }
+}

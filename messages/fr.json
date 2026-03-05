@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Générateur d'API Mock",
+    "description": "Générez une API REST complète à partir d'un JSON Schema"
+  },
+  "nav": {
+    "schema": "Schéma",
+    "resources": "Ressources",
+    "playground": "Playground",
+    "exports": "Exports"
+  },
+  "schema": {
+    "title": "JSON Schema",
+    "placeholder": "Collez votre JSON Schema ici...",
+    "validate": "Valider",
+    "valid": "Le schéma est valide",
+    "invalid": "Le schéma contient des erreurs",
+    "errors": "Erreurs",
+    "examples": "Exemples",
+    "loadExample": "Charger un exemple",
+    "clear": "Effacer"
+  },
+  "resources": {
+    "title": "Ressources",
+    "count": "{count} éléments",
+    "noResources": "Aucune ressource définie. Ajoutez un schéma valide avec $defs ou definitions.",
+    "regenerate": "Régénérer",
+    "countLabel": "Nombre"
+  },
+  "endpoints": {
+    "title": "Endpoints",
+    "method": "Méthode",
+    "path": "Chemin",
+    "description": "Description",
+    "tryIt": "Tester"
+  },
+  "playground": {
+    "title": "Playground API",
+    "method": "Méthode",
+    "path": "Chemin",
+    "queryParams": "Paramètres de requête",
+    "body": "Corps de la requête",
+    "send": "Envoyer",
+    "response": "Réponse",
+    "status": "Statut",
+    "duration": "Durée",
+    "headers": "En-têtes",
+    "noMocking": "Activez le mocking pour tester les endpoints",
+    "enableMocking": "Activer le Mocking"
+  },
+  "exports": {
+    "title": "Exporter l'API",
+    "openapi": "OpenAPI",
+    "postman": "Postman",
+    "insomnia": "Insomnia",
+    "download": "Télécharger",
+    "format": "Format",
+    "json": "JSON",
+    "yaml": "YAML"
+  },
+  "runtime": {
+    "title": "Runtime",
+    "mocking": "Mocking API",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "enable": "Activer",
+    "disable": "Désactiver",
+    "seed": "Seed",
+    "randomize": "Aléatoire",
+    "regenerate": "Régénérer les données",
+    "logs": "Logs de requêtes",
+    "clearLogs": "Effacer les logs",
+    "noLogs": "Aucune requête pour l'instant"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "baseUrl": "URL de base",
+    "defaultCount": "Nombre d'éléments par défaut",
+    "pagination": "Pagination",
+    "pageSize": "Taille de page par défaut",
+    "maxPageSize": "Taille de page maximum",
+    "style": "Style",
+    "pageStyle": "Par page",
+    "offsetStyle": "Par offset"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "reset": "Réinitialiser",
+    "delete": "Supprimer"
+  },
+  "presets": {
+    "title": "Préréglages",
+    "ecommerce": "E-commerce",
+    "blog": "Blog",
+    "social": "Réseau Social"
+  }
+}
